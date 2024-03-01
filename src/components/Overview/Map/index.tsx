@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {MapContainer, Marker, TileLayer} from "react-leaflet";
+import {MapContainer, TileLayer} from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import "./style.scss";
 import DatamartController from "../../../api/controllers/datamart";

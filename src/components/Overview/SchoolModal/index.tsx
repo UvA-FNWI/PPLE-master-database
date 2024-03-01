@@ -3,7 +3,6 @@ import {Row, Col, Modal, Tag, Button} from "antd";
 import DatamartController from "../../../api/controllers/datamart";
 import "./style.scss";
 import {MapContainer, TileLayer} from "react-leaflet";
-import School from "../../../models/School";
 import {Filterable} from "../../../models/Filterable";
 
 type IState = {
@@ -109,7 +108,7 @@ export default class SchoolModal extends Component<{filterable: Filterable}, ISt
               { interview &&
                 <p>What do others say about {name}? Find the section named <b>{interview.title}</b> on the page linked below.</p>
               }
-              <a href={'https://canvas.uva.nl/courses/16738/pages/alumni-stories?module_item_id=612744'} target={'_blank'}>
+              <a href={'https://canvas.uva.nl/courses/16738/pages/alumni-stories?module_item_id=612744'} target={'_blank'} rel={'noreferrer'}>
                 <Button>
                   { interview ? `Watch interview` : `All alumni interviews` }
                 </Button>

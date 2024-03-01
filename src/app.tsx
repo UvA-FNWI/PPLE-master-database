@@ -11,10 +11,6 @@ const Overview = React.lazy(() => import('./components/Overview'));
 
 class BitInsights extends React.Component<any, any> {
 
-  componentDidMount(): void {
-    const { dispatch } = this.props;
-  }
-
   componentDidUpdate(prevProps: any) {
     if (this.props.location !== prevProps.location) {
       window.scrollTo(0, 0)

@@ -16,3 +16,4 @@ steps:
   inputs:
     PathtoPublish: './build'
     ArtifactName: 'AUC-master-database'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))

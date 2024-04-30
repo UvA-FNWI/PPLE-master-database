@@ -423,7 +423,7 @@
         "track": "Major in the Sciences",
         "school": "Hertie School",
         "programme": "MA Public Policy",
-        "field": null,
+        "field": "",
         "country": "Berlin"
     },
     {
@@ -892,7 +892,7 @@
         "track": "Major in the Sciences",
         "school": "Linköpings universitet",
         "programme": "MS Child Studies",
-        "field": null,
+        "field": "",
         "country": "Sweden"
     },
     {
@@ -2873,7 +2873,7 @@
         "track": "Major in the Sciences",
         "school": "Eberhard-Karls-Universität Tübingen",
         "programme": "MS human geography",
-        "field": null,
+        "field": "",
         "country": "german"
     },
     {
@@ -3146,7 +3146,7 @@
         "track": "Major in the Sciences",
         "school": "Universiteit Utrecht",
         "programme": "MS Geographic Information Science and Cartography",
-        "field": null,
+        "field": "",
         "country": "Netherlands"
     },
     {
@@ -3937,7 +3937,7 @@
         "track": "Major in the Sciences",
         "school": "Zürcher Hochschule der Künste",
         "programme": "MA Transdisciplinary",
-        "field": null,
+        "field": "",
         "country": "Switzerland"
     }
 ]

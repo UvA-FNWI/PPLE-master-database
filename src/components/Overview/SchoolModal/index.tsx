@@ -60,7 +60,7 @@ export default class SchoolModal extends Component<{filterable: Filterable}, ISt
             }} />
 
             <div>
-              <span style={{margin: 0, padding: 0}}>AUC Masters Database</span>
+              <span style={{margin: 0, padding: 0}}>AUC Master's Database</span>
               <h5>{ name }</h5>
             </div>
           </div>

@@ -1,0 +1,6 @@
+apiVersion: v2
+name: pple-masters-database
+description: PPLE masters database
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

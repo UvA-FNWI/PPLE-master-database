@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pple-masters-database
+  namespace: "{{ .Release.Namespace }}"
+spec:
+  selector:
+    matchLabels:
+      app: pple-masters-database
+  replicas: 1
+  revisionHistoryLimit: 3
+  template:
+    metadata:
+      labels:
+        app: pple-masters-database
+    spec:
+      containers:
+        - name: pple-masters-database
+          image: "{{ .Values.registry }}/pple-masters-database:{{ .Values.tag }}"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          env:
+            - name: DATABASE_VERSION
+              value: "{{ .Chart.AppVersion }}"

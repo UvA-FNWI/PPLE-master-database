@@ -1,0 +1,4 @@
+hostname: pple-masters-database.local
+ingressClass: nginx
+tag: latest
+registry: fnwicr.azurecr.io

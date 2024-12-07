@@ -16,4 +16,4 @@ RUN apk add bash
 
 COPY docker/default.conf /etc/nginx/conf.d/default.conf
 
-COPY --from=build /source/dist /usr/share/nginx/html
+COPY --from=build /source/build /usr/share/nginx/html

@@ -1732,7 +1732,7 @@
         "track": "Major in Economics and Business",
         "school": "London School of Economics",
         "programme": "MSC Philosophy and Economics",
-        "field": NaN,
+        "field": "NaN",
         "country": "United Kingdom"
     },
     {
@@ -3665,7 +3665,7 @@
         "school": "London School of Economics",
         "programme": "MSC Philosophy, Mathematical Logic and Scientific Method",
         "field": "Philosophy",
-        "country": NaN
+        "country": "United Kingdom"
     },
     {
         "track": "Major in Politics",
@@ -3693,7 +3693,7 @@
         "school": "University of Amsterdam",
         "programme": "RM Cultural Analysis",
         "field": "Cultural Studies",
-        "country": NaN
+        "country": "Netherlands"
     },
     {
         "track": "Major in Politics",
@@ -3707,7 +3707,7 @@
         "school": "University of Amsterdam",
         "programme": "MA Journalism and Media",
         "field": "Journalism",
-        "country": NaN
+        "country": "Netherlands"
     },
     {
         "track": "Major in Politics",
@@ -3749,7 +3749,7 @@
         "school": "University of Cambridge",
         "programme": "PHD Neuroscience and Mental Health",
         "field": "Neuroscience  ",
-        "country": NaN
+        "country": "United Kingdom"
     },
     {
         "track": "Major in Politics",
@@ -3840,7 +3840,7 @@
         "school": "KU Leuven",
         "programme": "RM Philosophy",
         "field": "Philosophy",
-        "country": NaN
+        "country": "Belgium"
     },
     {
         "track": "Major in Psychology",

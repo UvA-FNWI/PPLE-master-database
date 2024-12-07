@@ -1,10 +1,10 @@
 FROM node:20-alpine AS build
 WORKDIR /source
 
-COPY package-lock.json .
+COPY yarn.lock .
 COPY package.json .
 
-RUN npm i --no-audit
+RUN npm i --no-audit --legacy-peer-deps
 
 COPY . .
 

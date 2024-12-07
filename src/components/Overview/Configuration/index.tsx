@@ -141,7 +141,7 @@ export default class Configuration extends Component<IProps, IState> {
           <Col flex={1}>
             <label>
               Filter by major &nbsp;
-              <Tooltip title={"Major completed at AUC by alumni"}>
+              <Tooltip title={"Major completed at PPLE by alumni"}>
                 <QuestionCircleOutlined />
               </Tooltip>
             </label>

@@ -54,7 +54,7 @@ export default class SchoolModal extends Component<{filterable: Filterable}, ISt
               height: 60,
               width: 80,
               float: 'right',
-              background: 'url(/auc_small.png)',
+              background: 'url(/pple_logo.png)',
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat"
             }} />

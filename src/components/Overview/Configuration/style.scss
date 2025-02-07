@@ -4,9 +4,12 @@
   #configuration {
     z-index: 100 !important;
     padding: 20px;
-    color: white;
     background-color: $primary-grey;
     position: relative;
+
+    label {
+      color: white;
+    }
   }
 
   select {

@@ -31,7 +31,7 @@ export default class Overview extends Component<IProps, IState> {
         <div>
           <span>Welcome to PPLE’s Master’s Database. Here you will find an interactive map of some of the master’s and PhD programmes PPLE alumni have completed. This map is based on PPLE’s 2023 graduate survey.</span>
           <br /><br />
-          <span>The Master’s Database is one starting point for your master’s research. Use the filters to explore which graduate school or programme is right for you. Channel the inspiration you receive from the database into continuing your master’s research on the <a href={"https://canvas.uva.nl/courses/16738"} target={"blank"}>Graduate Futures Information page</a>.</span>
+          <span>The Master’s Database is one starting point for your master’s research. Use the filters to explore which graduate school or programme is right for you.</span>
         </div>
       ),
     });

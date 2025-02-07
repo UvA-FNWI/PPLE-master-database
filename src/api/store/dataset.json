@@ -457,7 +457,7 @@
     {
         "track": "Major in Politics",
         "school": "London School of Economics",
-        "programme": " Political Theory",
+        "programme": "MSC Political Theory",
         "field": "Philosophy",
         "country": "United Kingdom"
     },
@@ -2874,7 +2874,7 @@
         "school": "University of Amsterdam",
         "programme": "MSc Economics",
         "field": "Economics",
-        "country": "Amsterdam"
+        "country": "Netherlands"
     },
     {
         "track": "Major in Psychology",
@@ -3670,14 +3670,14 @@
     {
         "track": "Major in Politics",
         "school": "Vrije Universiteit Amsterdam",
-        "programme": " Politial Science",
+        "programme": "MSC Politial Science",
         "field": "Politics",
         "country": "Netherlands"
     },
     {
         "track": "Major in Politics",
         "school": "Kaunas University of Technology",
-        "programme": " Business Big Data Analytics",
+        "programme": "MSC Business Big Data Analytics",
         "field": "Data Science",
         "country": "Lithuania"
     },

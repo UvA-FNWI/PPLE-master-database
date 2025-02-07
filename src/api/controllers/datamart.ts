@@ -1,7 +1,8 @@
 import programmes from "../store/dataset.json";
 import locations from "../store/locations.json";
-import interviews from "../store/interviews.json";
 import School from "../../models/School";
+
+const locationMap = Object.fromEntries(locations.map(l => [l.School, l]));
 
 export default class DatamartController {
 
@@ -23,19 +24,15 @@ export default class DatamartController {
   }
 
   public static getLocations = () => {
-    return locations;
+    return locationMap;
   }
 
   public static getLocation = (name: string) => {
-    if (!Object.keys(locations).includes(name)) return null;
-    return (locations as any)[name];
+    if (!Object.keys(locationMap).includes(name)) return null;
+    return (locationMap as any)[name];
   }
 
   public static getSchools = () => {
-    return Object.keys(locations);
-  }
-
-  public static getInterviews = () => {
-    return interviews;
+    return Object.keys(locationMap);
   }
 }

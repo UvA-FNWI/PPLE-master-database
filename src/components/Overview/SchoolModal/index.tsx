@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Row, Col, Modal, Tag, Button} from "antd";
+import {Row, Col, Modal, Tag} from "antd";
 import DatamartController from "../../../api/controllers/datamart";
 import "./style.scss";
 import {MapContainer, TileLayer} from "react-leaflet";
@@ -36,8 +36,6 @@ export default class SchoolModal extends Component<{filterable: Filterable}, ISt
     const { isOpen, name } = this.state;
     const { filterable } = this.props;
     const programmes = DatamartController.getData(name!);
-    const interviews = DatamartController.getInterviews();
-    const interview = interviews.find(i => i.university === name);
 
     const tracks = programmes.length > 0 ?
       programmes.map(p => p.track).filter(
@@ -103,16 +101,6 @@ export default class SchoolModal extends Component<{filterable: Filterable}, ISt
                   </MapContainer>
                 </React.Fragment>
               }
-
-              <br />
-              { interview &&
-                <p>What do others say about {name}? Find the section named <b>{interview.title}</b> on the page linked below.</p>
-              }
-              <a href={'https://canvas.uva.nl/courses/16738/pages/alumni-stories?module_item_id=612744'} target={'_blank'} rel={'noreferrer'}>
-                <Button>
-                  { interview ? `Watch interview` : `All alumni interviews` }
-                </Button>
-              </a>
             </Col>
           </Row>
         </Modal>

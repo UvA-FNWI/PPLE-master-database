@@ -29,7 +29,7 @@ export default class Overview extends Component<IProps, IState> {
       duration: 0,
       description: (
         <div>
-          <span>Welcome to PPLE’s Master’s Database. Here you will find an interactive map of some of the master’s and PhD programmes PPLE alumni have completed. This map is based on PPLE’s 2023 graduate survey.</span>
+          <span>Welcome to PPLE’s Master’s Database. Here you will find an interactive map of some of the master’s and PhD programmes PPLE alumni have completed. This map is based on PPLE's 2024 LinkedIn Research.</span>
           <br /><br />
           <span>The Master’s Database is one starting point for your master’s research. Use the filters to explore which graduate school or programme is right for you.</span>
         </div>

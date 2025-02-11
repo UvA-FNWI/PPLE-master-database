@@ -400,14 +400,14 @@
     },
     {
         "track": "Major in Politics",
-        "school": "Central European University and Lund University",
+        "school": "Central European University, Lund University",
         "programme": "MA Environmental Science, Policy and Management",
         "field": "Environmental Sciences",
         "country": "Hungary"
     },
     {
         "track": "Major in Politics",
-        "school": "Universiteit Maastricht and United Nations University",
+        "school": "Universiteit Maastricht, United Nations University",
         "programme": "MA Public Policy and Human Development",
         "field": "Public Policy",
         "country": "Netherlands"
@@ -890,7 +890,7 @@
     },
     {
         "track": "Major in Economics and Business",
-        "school": "Bocconi University and ESSEC Business School",
+        "school": "Bocconi University, ESSEC Business School",
         "programme": "MS Management",
         "field": "Management",
         "country": "Italy, Singapore, India and France"
@@ -981,7 +981,7 @@
     },
     {
         "track": "Major in Economics and Business",
-        "school": "FU Berlin and Sciences Po Paris",
+        "school": "FU Berlin, Sciences Po Paris",
         "programme": "MA Environmental Policy and Political Sciences",
         "field": "Environmental Sciences",
         "country": "Germany"
@@ -1114,10 +1114,10 @@
     },
     {
         "track": "Major in Politics",
-        "school": "Uppsala University, University of Udine and Osaka University",
+        "school": "Uppsala University, University of Udine, Osaka University",
         "programme": "MA Erasmus Mundus: Euroculture",
         "field": "Cultural Studies",
-        "country": "Sweden, Italy and Japan"
+        "country": "Sweden, Italy, Japan"
     },
     {
         "track": "Major in Economics and Business",
@@ -1170,7 +1170,7 @@
     },
     {
         "track": "Major in Politics",
-        "school": "Charles University and Universitat Pompeu Fabra",
+        "school": "Charles University, Universitat Pompeu Fabra",
         "programme": "MSC European Politics and Society",
         "field": "European Studies",
         "country": "Czechia and Spain"
@@ -1639,7 +1639,7 @@
     },
     {
         "track": "Major in Economics and Business",
-        "school": "FU Berlin and Sciences Po Paris",
+        "school": "FU Berlin, Sciences Po Paris",
         "programme": "MSC European Affairs",
         "field": "European Studies",
         "country": "Germany"
@@ -2276,7 +2276,7 @@
     },
     {
         "track": "Major in Politics",
-        "school": "CIFE and Luiss Guido Carli University",
+        "school": "CIFE, Luiss Guido Carli University",
         "programme": "MA EU Trade and Climate Diplomacy",
         "field": "International Relations",
         "country": "Italy"
@@ -2423,7 +2423,7 @@
     },
     {
         "track": "Major in Law",
-        "school": "FU Berlin and Sciences Po Paris",
+        "school": "FU Berlin, Sciences Po Paris",
         "programme": "MA European Affairs",
         "field": "European Studies",
         "country": "Germany"
@@ -2493,10 +2493,10 @@
     },
     {
         "track": "Major in Law",
-        "school": "Leiden, Sorbonne and Oxford",
+        "school": "Leiden, Sorbonne, Oxford",
         "programme": "MA European History and Civilisation (Europaeum)",
         "field": "European Studies",
-        "country": "Netherlands, France and United Kingdom"
+        "country": "Netherlands, France, United Kingdom"
     },
     {
         "track": "Major in Law",
@@ -2598,10 +2598,10 @@
     },
     {
         "track": "Major in Politics",
-        "school": "FU Berlin and Sciences Po Paris",
+        "school": "FU Berlin, Sciences Po Paris",
         "programme": "MA European Affairs",
         "field": "European Studies",
-        "country": "Germany and France"
+        "country": "Germany, France"
     },
     {
         "track": "Major in Politics",
@@ -2619,10 +2619,10 @@
     },
     {
         "track": "Major in Politics",
-        "school": "Utrecht University and University of Konstanz",
+        "school": "Utrecht University, University of Konstanz",
         "programme": "MA European Governance",
         "field": "European Studies",
-        "country": "Netherlands and Germany"
+        "country": "Netherlands, Germany"
     },
     {
         "track": "Major in Politics",
@@ -2640,17 +2640,17 @@
     },
     {
         "track": "Major in Politics",
-        "school": "Ruhr-Universität Bochum and University of Spain",
+        "school": "Ruhr-Universität Bochum, University of Spain",
         "programme": "MA International Humanitarian Action (Erasmus Mundus)",
         "field": "Law",
-        "country": "Germany and Spain"
+        "country": "Germany, Spain"
     },
     {
         "track": "Major in Politics",
-        "school": "FU Berlin and Sciences Po Paris",
+        "school": "FU Berlin, Sciences Po Paris",
         "programme": "MA International Relations",
         "field": "International Relations",
-        "country": "Germany and France"
+        "country": "Germany, France"
     },
     {
         "track": "Major in Politics",
@@ -3543,10 +3543,10 @@
     },
     {
         "track": "Major in Economics and Business",
-        "school": "TU Munich and HEC Paris",
+        "school": "TU Munich, HEC Paris",
         "programme": "MSC Management and Innovation",
         "field": "Management",
-        "country": "Germany; France"
+        "country": "Germany, France"
     },
     {
         "track": "Major in Law",
@@ -3585,10 +3585,10 @@
     },
     {
         "track": "Major in Economics and Business",
-        "school": "Rotterdam University and Hamburg University",
+        "school": "Rotterdam University, Hamburg University",
         "programme": "LLM Law and Economics",
         "field": "Law",
-        "country": "Netherlands and Germany"
+        "country": "Netherlands, Germany"
     },
     {
         "track": "Major in Law",
@@ -3606,10 +3606,10 @@
     },
     {
         "track": "Major in Law",
-        "school": "Groningen University and Uppsala University",
+        "school": "Groningen University, Uppsala University",
         "programme": "MA International Humanitarian Action",
         "field": "Politics",
-        "country": "Netherlands and Sweden"
+        "country": "Netherlands, Sweden"
     },
     {
         "track": "Major in Law",
@@ -3630,7 +3630,7 @@
         "school": "Leiden University",
         "programme": "MSC Crisis and Security Management",
         "field": "Security Studies",
-        "country": "Netherlands and Sweden"
+        "country": "Netherlands, Sweden"
     },
     {
         "track": "Major in Law",
@@ -3998,10 +3998,10 @@
     },
     {
         "track": "Major in Politics",
-        "school": "University of Brno and Utrecht University",
+        "school": "University of Brno, Utrecht University",
         "programme": "MSC European Governance",
         "field": "European Studies",
-        "country": "Czechia; Netherlands"
+        "country": "Czechia, Netherlands"
     },
     {
         "track": "Major in Economics and Business",
@@ -4204,7 +4204,7 @@
         "school": "Vrije Universiteit Brussels",
         "programme": "PHD Industrial and Organisational Psychology",
         "field": "Organisational Psychology",
-        "country": "Netherlands"
+        "country": "Belgium"
     },
     {
         "track": "Major in Psychology",
@@ -4264,7 +4264,7 @@
     },
     {
         "track": "Major in Politics",
-        "school": "Sant'Anna School of Advanced Studies Pisa and Trento University",
+        "school": "Sant'Anna School of Advanced Studies Pisa, Trento University",
         "programme": "MSC International Security Studies",
         "field": "Security Studies",
         "country": "Italy"

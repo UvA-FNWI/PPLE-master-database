@@ -23,3 +23,19 @@ spec:
           env:
             - name: DATABASE_VERSION
               value: "{{ .Chart.AppVersion }}"
+          {{- if .Values.azure }}
+          volumeMounts:
+            - name: secrets-store-inline
+              mountPath: "/etc/secrets"
+              readOnly: true
+          {{- end }}
+
+      {{- if .Values.azure }}
+      volumes:
+        - name: secrets-store-inline
+          csi:
+            driver: secrets-store.csi.k8s.io
+            readOnly: true
+            volumeAttributes:
+              secretProviderClass: "testapp-secretproviderclass"
+      {{- end }}

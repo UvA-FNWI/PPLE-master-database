@@ -9,6 +9,7 @@ spec:
   tls:
     - hosts:
         - "{{ .Values.hostname }}"
+      secretName: ingress-tls-csi-pple-masters-database
   rules:
     - host: "{{ .Values.hostname }}"
       http:

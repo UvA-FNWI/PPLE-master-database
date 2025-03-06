@@ -2,3 +2,11 @@ hostname: pple-masters-database.local
 ingressClass: nginx
 tag: latest
 registry: fnwicr.azurecr.io
+
+azure:
+  keyvaultName: keyvaultName
+  resourceGroup: resourceGroupName
+  subscriptionId: subscriptionId
+  tenantId: tenantId
+  clientId: clientId
+  identityName: identityName

@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-FROM nginx:1.27.3-alpine
+FROM nginx:1.31.9-alpine
 
 RUN apk add bash
 
